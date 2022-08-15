@@ -1,4 +1,5 @@
 import React from 'react'
+//DO copy the code from index.css
 
 const InputField = ({type,placeholder}) => {
   return (
