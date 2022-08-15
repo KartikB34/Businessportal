@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+input:focus ~.input-text{
+  @apply text-blue-400 text-sm bg-white transform -translate-y-5 -translate-x-3
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

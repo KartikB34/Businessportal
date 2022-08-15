@@ -1,9 +1,9 @@
 import './App.css';
-import Login from './components/Login';
+import Login from './components/login/Login';
 
 import { Switch, Route } from 'react-router-dom'
-import Dashboard from './components/Dashboard';
-import Signup from './components/navbar/Signup';
+import Dashboard from './components/dashboard/Dashboard';
+import Signup from './components/login/Signup';
 
 function App() {
   return (
