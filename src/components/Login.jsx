@@ -18,10 +18,10 @@ const Login = () => {
             <div className='border-4 w-10 border-blue-400 inline-block mb-2' />
             {/*Social Login Section below */}
             <div className='flex justify-center my-2'>
-                <a href='social' className='border-2 border-gray-200 rounded-full p-3 mx-1'>
+                <a href='social' className='border-2 border-gray-200 rounded-full p-3 mx-1 hover:bg-gray-400 hover:text-white'>
                     <FaLinkedinIn />
                 </a>
-                <a href='social' className='border-2 border-gray-200 rounded-full p-3 mx-1'>
+                <a href='social' className='border-2 border-gray-200 rounded-full p-3 mx-1 hover:bg-gray-400 hover:text-white'>
                     <FaGoogle />
                 </a>
             </div>
@@ -68,13 +68,13 @@ const Login = () => {
     <p>©Cryptonaukri all right reserved</p>
     <p className='mt-4'>Connect with us:</p>
     <div className='flex justify-center my-2'>
-        <a href='social' className='border-2 border-gray-200 rounded-full p-3 mx-1'>
+        <a href='social' className='border-2 border-gray-200 rounded-full p-3 mx-1 hover:bg-gray-400 hover:text-white'>
             <FaLinkedinIn />
         </a>
-        <a href='social' className='border-2 border-gray-200 rounded-full p-3 mx-1'>
+        <a href='social' className='border-2 border-gray-200 rounded-full p-3 mx-1 hover:bg-gray-400 hover:text-white'>
             <FaInstagram />
         </a>
-        <a href='social' className='border-2 border-gray-200 rounded-full p-3 mx-1'>
+        <a href='social' className='border-2 border-gray-200 rounded-full p-3 mx-1 hover:bg-gray-400 hover:text-white'>
             <FaRegEnvelope />
         </a>
     </div>
