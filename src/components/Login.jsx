@@ -10,7 +10,7 @@ const Login = () => {
     <>
     <Navbar />
 
-    <div className='w-full flex flex-col md:flex-row items-center justify-center flex-1 text-center'>
+    <div className='w-full flex flex-col md:flex-row items-center justify-center flex-1 text-center '>
         <div className='w-full md:w-3/5 p-5'>  {/* Login Section */}
         {/* <img src={logo} alt='logo' className='h-10' /> */}
         <div className='py-10'>
@@ -44,7 +44,7 @@ const Login = () => {
                     <label className='flex items-center text-sm'><input type='checkbox' name='remember' className='mr-1'/>Remember me</label>
                     <a href='forgot-password' className='text-xs'>Forgot Password?</a>
                 </div>
-                <a href='signup' className='border-2 border-blue-400 text-blue-400 font-semibold rounded-full px-12 py-2 inline-block hover:bg-blue-400 hover:text-white'>SignIn</a>
+                <a href='signin' className='border-2 border-blue-400 text-blue-400 font-semibold rounded-full px-12 py-2 inline-block hover:bg-blue-400 hover:text-white'>SignIn</a>
             </div>
 
 
