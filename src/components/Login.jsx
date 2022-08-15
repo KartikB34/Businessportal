@@ -1,16 +1,18 @@
 import React from 'react'
-import logo from '../assets/logo.png'
 
 import {FaLinkedinIn, FaGoogle, FaRegEnvelope, FaInstagram} from 'react-icons/fa'
 import {MdLockOutline} from 'react-icons/md'
+import Navbar from './navbar/Navbar'
 
 
 const Login = () => {
   return (
     <>
+    <Navbar />
+
     <div className='w-full flex flex-col md:flex-row items-center justify-center flex-1 text-center'>
         <div className='w-full md:w-3/5 p-5'>  {/* Login Section */}
-        <img src={logo} alt='logo' className='h-10' />
+        {/* <img src={logo} alt='logo' className='h-10' /> */}
         <div className='py-10'>
             <h2 className='text-3xl font-bold text-blue-400 mb-2'>Sign in to account</h2>
             <div className='border-4 w-10 border-blue-400 inline-block mb-2' />
@@ -48,10 +50,14 @@ const Login = () => {
 
         </div>
         </div>
-        <div className='w-full md:w-2/5 bg-blue-400 text-white px-12 py-36'>  {/* signup Section */}
+        <div className='w-full md:w-2/5 md:h-[492px] bg-blue-400 text-white px-12 py-36'>  {/* signup Section */}
             <h2 className='text-3xl font-bold mb-2'>Hello, company!</h2>
             <div className='border-4 w-10 border-white inline-block mb-2' />
-            <p className='mb-10'>Fill up company info and start journey with us!</p>
+            <div className='90%'>
+              <p className='text-xl mb-3'>Post jobs and internships for your company</p>
+              <p className='text-xl mb-6'>Hire our trained and skilled WEB3 developers</p>
+              <p className='mb-10'>Fill up company info and start journey with us!</p>
+            </div>
             <a href='signup' className='border-2 border-white font-semibold rounded-full px-12 py-2 inline-block hover:bg-white hover:text-blue-400'>SignUp</a>
         </div>
 
