@@ -19,10 +19,10 @@ const Login = () => {
             <div className='border-4 w-10 border-[#003979] inline-block mb-2' />
             {/*Social Login Section below */}
             <div className='flex justify-center my-2'>
-                <a href='social' className='border-2 border-gray-200 rounded-full p-3 mx-1 hover:bg-gray-400 hover:text-white'>
+                <a href='social' className='border-2 border-gray-200 rounded-full p-3 mx-1 hover:bg-[#003979] hover:text-white'>
                     <FaLinkedinIn />
                 </a>
-                <a href='social' className='border-2 border-gray-200 rounded-full p-3 mx-1 hover:bg-gray-400 hover:text-white'>
+                <a href='social' className='border-2 border-gray-200 rounded-full p-3 mx-1 hover:bg-[#003979] hover:text-white'>
                     <FaGoogle />
                 </a>
             </div>
