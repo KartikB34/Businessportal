@@ -23,9 +23,9 @@ const Navbar = () => {
 
       {/*Links*/}
       <div className=" hidden items-center justify-end space-x-6 md:flex w-full">
-        <a href="about-us">Benefits</a>
-        <a href="about-us">About us</a>
-        <a href="Contact-us">Contact us</a>
+        <a href="about-us" className="text-black">Benefits</a>
+        <a href="about-us" className="text-black">About us</a>
+        <a href="Contact-us" className="text-black">Contact us</a>
         {/* <BellIcon className="w-6" />
         <UserCircleIcon className="w-6" /> */}
       </div>
