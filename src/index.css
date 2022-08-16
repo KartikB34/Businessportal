@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-input:focus ~.input-text{
+/* input:focus ~.input-text{
   @apply text-blue-400 text-sm bg-white transform -translate-y-5 -translate-x-3
+} */
+
+@layer components {
+  .nav-icon{
+      @apply w-6 h-6 cursor-pointer   /*to apply tailwindCSS property*/
+  }
 }
 
 body {
