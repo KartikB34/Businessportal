@@ -4,8 +4,8 @@ import Internshipcard from './Internshipcard'
 
 const DashHome = () => {
   return (
-    <div className=' w-full flex flex-col items-center'>
-      <Jobcard />
+    <div className=' w-fll flex flex-col items-center'>
+      <Jobcard  />
       <Internshipcard />
     </div>
   )

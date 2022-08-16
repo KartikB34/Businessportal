@@ -10,10 +10,10 @@ const Dashboard = () => {
       <Header />
       <div className="w-full min-h-[90vh] flex flex-row">
         <Navbar className=""/>
-        <div className="w-[640px]">
+        <div className="w-[100%]">
           {/* Left part */}
           {/* Right part */}
-          <DashHome />
+          <DashHome  />
         </div>
       </div>
     </div>

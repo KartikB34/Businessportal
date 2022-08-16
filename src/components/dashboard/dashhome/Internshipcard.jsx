@@ -31,10 +31,10 @@ const Internshipscard = () => {
 
   return (
     <div>
-      <div className="p-5 bg-gray-100">
+      <div className="p-5 shadow-xl bg-gray-100">
     <h1 className="text-xl mb-2">Your Internships</h1>
  
-    <div className="overflow-auto rounded-lg shadow hidden md:block">
+    <div className="overflow-auto w-[510.65px] rounded-lg shadow hidden md:block">
       <table className="w-full">
         
         <thead className="bg-gray-50 border-b-2 border-gray-200">
