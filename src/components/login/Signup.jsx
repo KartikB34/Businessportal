@@ -1,25 +1,24 @@
-import React from 'react'
-import { Switch, Route } from 'react-router-dom'
+import React from "react";
+import Footer from "./Footer";
+import Navbar from "./Navbar";
 
-import SignupOne from './SignupOne'
-import SignupTwo from './SignupTwo'
+import SignupOne from "./SignupOne";
 
 const Signup = () => {
   return (
-    <div className='bg-gray-200 flex flex-col items-center justify-center py-6'>
-        <h1 className='text-3xl font-bold text-[#003979] mb-2'>New business registration</h1>
-        <div className='bg-white'>
-          <Switch>
-              <SignupOne />
-            <Route exact path="/">
-            </Route>
-            <Route exact path="/step-two">
-              <SignupTwo />
-            </Route>
-          </Switch>
-        </div>
+    <>
+    <Navbar />
+    <div className="w-full bg-gray-200 flex flex-col items-center justify-center py-6">
+      <h1 className="text-3xl mt-3 font-bold text-[#003979] mb-2">
+        Sign up as a new business!
+      </h1>
+      <div className="bg-white mt-8 rounded-2xl">
+        <SignupOne />
+      </div>
     </div>
-  )
-}
+      <Footer className='w-full' />
+    </>
+  );
+};
 
-export default Signup
+export default Signup;
