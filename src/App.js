@@ -14,7 +14,7 @@ function App() {
           <Login />
         </Route>
 
-        <Route exact path="/signin">
+        <Route exact path="/signin/:username">
           <Dashboard />
         </Route>
 
