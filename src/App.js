@@ -2,6 +2,7 @@ import './App.css';
 import Login from './components/login/Login';
 
 import { Switch, Route } from 'react-router-dom'
+
 import Dashboard from './components/dashboard/Dashboard';
 import Signup from './components/login/Signup';
 
@@ -14,9 +15,11 @@ function App() {
           <Login />
         </Route>
 
-        <Route exact path="/signin/:username">
-          <Dashboard />
-        </Route>
+        <Switch>
+          <Route path="/signin">
+            <Dashboard />
+          </Route>
+        </Switch>
 
         <Route exact path="/signup">
           <Signup />

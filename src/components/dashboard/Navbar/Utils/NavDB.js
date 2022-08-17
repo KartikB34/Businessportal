@@ -1,4 +1,4 @@
-import { ChatAltIcon, CogIcon, LogoutIcon, ShoppingCartIcon, TemplateIcon, UserIcon } from "@heroicons/react/outline";
+import { PlusCircleIcon, CogIcon, LogoutIcon, BriefcaseIcon, TemplateIcon, UserIcon } from "@heroicons/react/outline";
 
 export const navLinks = [
   {
@@ -8,18 +8,18 @@ export const navLinks = [
   },
   {
     id: 1,
-    title: "Market",
-    icon: <ShoppingCartIcon className="nav-icon" />,
+    title: "Your Jobs",
+    icon: <BriefcaseIcon className="nav-icon" />,
   },
   {
     id: 2,
-    title: "Portfolio",
+    title: "Your Internships",
     icon: <UserIcon className="nav-icon" />,
   },
   {
     id: 3,
-    title: "News",
-    icon: <ChatAltIcon className="nav-icon" />,
+    title: "Add Job",
+    icon: <PlusCircleIcon className="nav-icon" />,
   },
   {
     id: 4,

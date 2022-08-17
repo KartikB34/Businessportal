@@ -1,7 +1,7 @@
-import React from "react";
+import React, {useState} from "react";
 import Header from "./header/Header";
 import Navbar from "./Navbar/Navbar";
-import { Switch,Route, useParams } from "react-router-dom";
+import { Switch,Route, useRouteMatch } from "react-router-dom";
 
 import DashHome from "./dashhome/DashHome";
 import Addjob from "./addjob/Addjob";
@@ -9,28 +9,34 @@ import YourInternships from "./yourinternships/YourInternships";
 import YourJobs from "./yourjobs/YourJobs";
 
 const Dashboard = () => {
+
+  let {path} = useRouteMatch();
+  const [tab,setTab] = useState('Dashboard')
+
   return (
     <div>
       <Header />
       <div className="w-full min-h-[90vh] flex flex-row">
         <Navbar className="" />
         <div className="w-[100%]">
-          {/* Left part */}
-          {/* Right part */}
+
           <Switch>
-            <Route exact path="/signin">
+            <Route exact path={`${path}`}>
               <div>
-                <YourJobs />
+                <DashHome />
               </div>
             </Route>
 
-            <Route exact path="/signin/addjob">
+            <Route exact path={`${path}/addjob`}>
                 <Addjob />
             </Route>
 
-            <Route exact path="/yourjob">
+            <Route exact path={`${path}/yourjobs`}>
+              <YourJobs />
+            </Route>
+
+            <Route exact path={`${path}/yourinternships`}>
               <YourInternships />
-              <DashHome />
             </Route>
 
           </Switch>
