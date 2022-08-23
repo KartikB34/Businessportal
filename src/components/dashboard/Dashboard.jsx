@@ -17,7 +17,7 @@ const Dashboard = () => {
     <div>
       <Header />
       <div className="w-full min-h-[90vh] flex flex-row">
-        <Navbar className="" />
+        <Navbar className="" path={path} />
         <div className="w-[100%]">
 
           <Switch>

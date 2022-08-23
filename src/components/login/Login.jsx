@@ -1,6 +1,7 @@
 import React from 'react'
 
-import {FaLinkedinIn, FaGoogle, FaRegEnvelope} from 'react-icons/fa'
+import {FaRegEnvelope} from 'react-icons/fa'
+// import {FaLinkedinIn, FaGoogle} from 'react-icons/fa'
 import {MdLockOutline} from 'react-icons/md'
 import Footer from './Footer'
 import Navbar from './Navbar'
@@ -15,19 +16,19 @@ const Login = () => {
         <div className='w-full md:w-3/5 p-5'>  {/* Login Section */}
         {/* <img src={logo} alt='logo' className='h-10' /> */}
         <div className='py-10'>
-            <h2 className='text-3xl font-bold text-[#003979] mb-2'>Sign in to account</h2>
+            <h2 className='text-3xl font-bold text-[#003979] mb-8'>Sign in to account</h2>
             <div className='border-4 w-10 border-[#003979] inline-block mb-2' />
             {/*Social Login Section below */}
-            <div className='flex justify-center my-2'>
+            {/* <div className='flex justify-center my-2'>
                 <a href='social' className='border-2 border-gray-200 rounded-full p-3 mx-1 hover:bg-[#003979] hover:text-white'>
                     <FaLinkedinIn />
                 </a>
                 <a href='social' className='border-2 border-gray-200 rounded-full p-3 mx-1 hover:bg-[#003979] hover:text-white'>
                     <FaGoogle />
                 </a>
-            </div>
+            </div> */}
 
-            <p className='text-gray-400 my-3'>or use your email account</p>
+            {/* <p className='text-gray-400 my-3'>or use your email account</p> */}
 
             {/* Input Divs below */}
             <div className='flex flex-col items-center '>
@@ -52,7 +53,7 @@ const Login = () => {
         </div>
         </div>
         <div className='w-full md:w-2/5 md:h-[492px] bg-[#003979] text-white px-12 py-36'>  {/* signup Section */}
-            <h2 className='text-3xl font-bold mb-2'>Hello, company!</h2>
+            <h2 className='text-3xl text-white font-bold mb-2'>Hello, company!</h2>
             <div className='border-4 w-10 border-white inline-block mb-2' />
             <div className='90%'>
               <p className='text-xl mb-3'>Post jobs and internships for your company</p>
