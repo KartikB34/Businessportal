@@ -1,33 +1,8 @@
 import React from "react";
 import { EyeIcon, PencilIcon, TrashIcon } from "@heroicons/react/outline";
+import { Jobs } from "../data/Jobs";
 
 const Jobcard = () => {
-  const Jobs = [
-    {
-      title: "Front-end Developer",
-      experience: "2-years",
-      ctc: "10LPA",
-      status: "Completed",
-    },
-    {
-      title: "Back-end Developer",
-      experience: "1-years",
-      ctc: "10LPA",
-      status: "No selection",
-    },
-    {
-      title: "Graphic Designer",
-      experience: "2-years",
-      ctc: "10LPA",
-      status: "Completed",
-    },
-    {
-      title: "Marketing manager",
-      experience: "1-years",
-      ctc: "10LPA",
-      status: "not selection",
-    },
-  ];
 
   return (
     <div className="md:px-4 md:py-12 bg-gray-100 ">

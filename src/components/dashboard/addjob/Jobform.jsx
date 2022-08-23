@@ -146,7 +146,7 @@ const Jobform = () => {
       </div>
 
       <div className="w-full flex justify-center py-8">
-      <button className='border-2  mr-4 border-[#003979] text-[#003979] font-semibold px-12 py-2 mt-7 inline-block hover:bg-[#003979] hover:text-white'>ADD JOB</button>
+        <button className='border-2  mr-4 border-[#003979] text-[#003979] font-semibold px-12 py-2 mt-7 inline-block hover:bg-[#003979] hover:text-white'>ADD JOB</button>
       </div>
       
     </div>

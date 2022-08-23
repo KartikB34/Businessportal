@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import Header from "./header/Header";
 import Navbar from "./Navbar/Navbar";
 import { Switch,Route, useRouteMatch } from "react-router-dom";
@@ -11,13 +11,12 @@ import YourJobs from "./yourjobs/YourJobs";
 const Dashboard = () => {
 
   let {path} = useRouteMatch();
-  const [tab,setTab] = useState('Dashboard')
 
   return (
     <div>
       <Header />
       <div className="w-full min-h-[90vh] flex flex-row">
-        <Navbar className="" path={path} />
+        <Navbar className="" />
         <div className="w-[100%]">
 
           <Switch>

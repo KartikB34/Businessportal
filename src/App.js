@@ -15,11 +15,13 @@ function App() {
           <Login />
         </Route>
 
-        <Switch>
+        
           <Route path="/signin">
+          <Switch>
             <Dashboard />
+          </Switch>
           </Route>
-        </Switch>
+        
 
         <Route exact path="/signup">
           <Signup />
