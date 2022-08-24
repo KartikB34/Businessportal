@@ -23,7 +23,7 @@ const Navbar = () => {
   )
 }
 
-function NavItem({Link, path}) {
+function NavItem({Link}) {
     const [activeNavItem, setActiveNavItem] = useRecoilState(ActiveTabState);
     // Inside div when using recoil:    onClick={()=>setActiveNavItem(Link.id)}
     // let navigate = useNavigate();
